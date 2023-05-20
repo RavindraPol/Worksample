@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            background-color: #f5f5f5;
+        }
+        #contain{
+            padding: 15px;
+            width: 400px;
+            background-color: #fff;
+            margin: 10% auto;
+            border: 1px solid #dadce0;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); 
+            border-radius: 10px;
+           
+        }
+        .img1{
+            width: 55px;
+            height: 40px;
+        }
+        .img2{
+            width: 35px;
+            height: 35px;
+        }
+        .whole{
+            display: flex;
+            flex-direction: column;
+        }
+        .account{
+            display: flex;
+            margin: 10px 0 10px 0;
+            
+        }
+        .inputsection{
+            display: flex;
+            flex-direction: column;
+        }
+        p1{
+            text-align: center;
+            margin: 15px;
+        }
+        .input1{
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+           
+        }
+       
+        .headsection{
+            margin-bottom: 20px;
+        }
+        .forgotpa{
+            margin-bottom: 30px;
+            text-decoration: none;
+            color: #4285F4;
+        }
+        .footer{
+        margin: auto;
+        }
+        .input2{
+            
+            padding: 10px;
+            background-color: #1877f2;
+            color: #fff;
+            border-radius: 10px;
+            border: none;
+            outline: 0;
+            font-weight: 500;
+        }
+        .input2:hover{
+            background-color: #0a5ecd;
+        }
+        .create{
+            color: #4285F4;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form id="contain">
+            <div class="whole">
+                <div class="headsection">
+                    <h1>Sign in</h1>
+                    <div class="account">
+                    <p>New here?</p>
+                    <a href="create_Account.html" class="create">Create an account</a>
+                </div>
+                </div>
+                <div class="inputsection">
+                    <div class="content">
+                    <input type="email" placeholder="E-mail" class="input1">
+                </div>
+                    <input type="password" placeholder="Password" class="input1">
+                    <a href="#" class="forgotpa">Forgot password?</a>
+                    <input type="button" value="Sign in" class="input2">
+                </div>
+                <p1>or</p1>
+                <div class="footer">
+                    <a href="https://www.facebook.com/"><img src="facebook.jpg" class="img1"></a>
+                    <a href="https://www.gmail.com/"><img src="google.png" class="img2"></a>
+                </div>
+
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
